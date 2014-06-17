@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+    <name>plg_content_jawanymodule</name>
+    <author>Pshentsov Vadim</author>
+    <creationDate>16.06.2014</creationDate>
+    <copyright>Copyright (C) 2014 All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>pshentsoff@yandex.ru</authorEmail>
+    <authorUrl>http://pshentsoff.ru</authorUrl>
+    <version>0.2.0</version>
+    <description>PLG_CONTENT_JAWANYMODULE_XML_DESCRIPTION</description>
+
+    <files>
+        <filename plugin="jawanymodule">jawanymodule.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+    </files>
+
+    <languages>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_jawanymodule.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_content_jawanymodule.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_jawanymodule.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_jawanymodule.sys.ini</language>
+    </languages>
+
+</extension>
